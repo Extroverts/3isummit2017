@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.isummit.om.sample">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_new"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_new"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".SplashDummy"
+            android:label="@string/app_name"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_main"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".FeedBack" />
+        <activity
+            android:name=".Testimonials"
+            android:label="@string/title_activity_testimonials"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".RegistrationActivity" />
+        <activity android:name=".Guest" />
+        <activity android:name=".GuestListActivity" />
+        <activity android:name=".ActivityAlumniAgenda" />
+        <activity android:name=".ActivitySummitAgenda" />
+        <activity android:name=".DataEntryActivity" />
+        <activity android:name=".summit08" />
+        <activity android:name=".summit09" />
+        <activity android:name=".summit10" />
+        <activity android:name=".summit11" />
+        <activity android:name=".summit12" />
+        <activity android:name=".summit13" />
+        <activity android:name=".Prev" />
+        <activity
+            android:name=".GuestInfoDialogActivity"
+            android:theme="@android:style/Theme.Dialog" />
+        <activity android:name=".DisplayImagesActivity" />
+        <activity android:name=".GatePass" />
+        <activity android:name=".Youtubes" />
+        <activity
+            android:name=".SplashTwo"
+            android:theme="@style/SplashTheme" />
+        <activity
+            android:name=".Splash"
+            android:theme="@style/SplashTheme" />
+        <activity android:name=".summit14" />
+        <activity android:name=".summit15" />
+        <activity android:name=".summit16" />
+        <activity android:name=".summit17" />
+        <activity
+            android:name=".GalleryImageZoom"
+            android:theme="@android:style/Theme.Dialog" />
+        <activity android:name=".GifPlay" />
+        <activity android:name=".Developers"></activity>
+    </application>
+
+</manifest>
